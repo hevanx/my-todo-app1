@@ -3,12 +3,8 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "homepage": "https://hevanx.github.io/my-todo-app1",
-  "expo": {
-  "web": {
-    "output": "static"
-  }
-}
-,
+
+
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
@@ -19,6 +15,11 @@
     "lint": "expo lint",
     "predeploy": "npx expo export --platform web",
     "deploy": "gh-pages -d dist"
+  },
+  "expo": {
+    "web": {
+      "output": "static"
+    }
   },
   "jest": {
     "preset": "jest-expo"
